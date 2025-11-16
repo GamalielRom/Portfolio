@@ -20,7 +20,7 @@ export default function Projects() {
       title: "IncluJob",
       description:
         "Job platform for people with disabilities. Built with TypeScript, MongoDB, SQL, Tailwind, and JavaScript.",
-      mainImage: "N/A",
+      mainImage: "/images/other/none_background.webp",
       sideImage: "N/A",
       thirdImage: "N/A",
       tech: [
@@ -192,10 +192,11 @@ export default function Projects() {
             className="fixed inset-0 bg-black/60 flex items-center justify-center z-50"
             onClick={() => setSelected(null)}
           >
-            <div
-              className="bg-gray-800 p-6 rounded-xl shadow-xl max-w-3xl w-[90%] overflow-y-auto max-h-[90vh]"
-              onClick={(e) => e.stopPropagation()}
-            >
+          <div
+          className="relative bg-gray-800 p-6 rounded-xl shadow-xl max-w-3xl w-[90%] overflow-y-auto max-h-[90vh]"
+          onClick={(e) => e.stopPropagation()}
+          >
+
               {/* Close Button*/}
               <button
                 onClick={() => setSelected(null)}

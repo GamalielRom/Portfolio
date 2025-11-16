@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaFileDownload} from "react-icons/fa";
 
 
 
@@ -6,7 +6,7 @@ export default function Hero(){
     return(
         <section id="home" className="relative flex flex-col md:flex-row items-center justify-center min-h-screen px-6 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 overflow-hidden">
             {/*Animated Background */}
-           <div className="w-28 h-28 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg flex-shrink-0">
+           <div className="w-[14rem] h-[18rem] rounded-lg overflow-hidden border-4 border-blue-500 shadow-lg flex-shrink-0">
                 <img
                 src="/images/other/gamaliel.jpg"
                 alt="gamaliel"
@@ -20,8 +20,7 @@ export default function Hero(){
                     Hi, I'm <span className="text-blue-400">G</span>amaliel <span className="text-blue-400">R</span>omualdo
                 </h1>
                 <p className="text-gray-300 text-lg max-w-lg mb-6">
-                I'm a software developer passionate about clean code, data, and creative solutions.
-                Currently exploring web development, AI, and system design.
+                I am a software developer passionate about clean code, data, and creative yet effective solutions. I focus primarily on back-end and front-end development, but I am also capable of effectively managing databases. I have worked in web development, AI, and system design.
                  </p>
                  <div className="flex justify-center md:justify-start gap-4">
                      <a
@@ -39,7 +38,7 @@ export default function Hero(){
                  </div>
 
                  {/*Social Icons */}
-                 <div className="flex justify-center md:justify-start gap-6 mt-8">
+                 <div className="flex justify-center md:justify-start gap-4 mt-8">
                     <a
                     href="https://github.com/GamalielRom"
                     target="_blank"
@@ -55,6 +54,21 @@ export default function Hero(){
                     className="text-gray-400 hover:text-blue-400 transition text-2xl"
                     >
                     <FaLinkedin />
+
+                    </a>
+                    <a
+                    href="mailto:gameva.rom@gmail.com"
+                    className="text-gray-400 hover:text-blue-400 transition text-2xl"
+                    >
+                    <FaEnvelope />
+                    </a>
+                    <a
+                    href="/files/Gamaliel_Romualdo_Resumme.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-blue-400 transition text-2xl"
+                    >
+                    <FaFileDownload />
                     </a>
                  </div>
             </div>

@@ -52,7 +52,6 @@ export default function About() {
 
           {/* Icons */}
           <div className="flex flex-wrap justify-start gap-6 text-4xl text-blue-400">
-            <SiC title="C#" />
             <SiTypescript title="TypeScript" />
             <SiJavascript title="JavaScript" />
             <SiReact title="React" />

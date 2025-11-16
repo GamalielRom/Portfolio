@@ -1,4 +1,4 @@
-import { FaEnvelope, FaLinkedin, FaGithub, FaPhone } from "react-icons/fa";
+import { FaEnvelope, FaLinkedin, FaGithub, FaFileDownload  } from "react-icons/fa";
 
 export default function Contact() {
   return (
@@ -39,14 +39,14 @@ export default function Contact() {
           >
             <FaGithub /> <span className="text-lg">GitHub</span>
           </a>
-         {/*
           <a
-            href="tel:+1XXXXXXXXXX"
+            href="/files/Gamaliel_Romualdo_Resumme.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-3 text-gray-400 hover:text-blue-400 transition"
           >
-            <FaPhone /> <span className="text-lg">Phone</span>
+            <FaFileDownload /> <span className="text-lg">View Resume</span>
           </a>
-           */}
         </div>
       </div>
     </section>

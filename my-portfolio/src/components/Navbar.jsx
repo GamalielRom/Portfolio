@@ -51,7 +51,7 @@ export default function Navbar() {
                 </li>
                 <li>
                 <a
-                    href="#contact"
+                    href="mailto:gameva.rom@gmail.com"
                     className="hover:text-blue-400 transition duration-200"
                 >
                     Contact
